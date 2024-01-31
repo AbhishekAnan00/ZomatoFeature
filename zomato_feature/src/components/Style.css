@@ -1,0 +1,88 @@
+body {
+  overflow-x: hidden;
+}
+.logo {
+  height: 2rem;
+}
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.1rem solid #767676;
+}
+.image {
+  border-radius: 16px;
+  margin-top: 20px;
+  height: 15rem;
+}
+.div {
+  display: flex;
+  gap: 20px;
+}
+.div p {
+  color: #767676;
+  font-family: 700;
+  font-size: 1.2rem;
+}
+.search-btn {
+  box-shadow: 1px 1px 5px;
+  border-radius: 10px;
+}
+.search-btn input {
+  height: 40px;
+  width: 400px;
+  padding: 1px 2px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.search-btn i {
+  margin: -1px 1px -1px -1px;
+  padding: 5px 15px;
+  color: #767676;
+}
+.text {
+  font-size: 2rem;
+  font-family: Helvetica, sans-serif;
+  color: #1c1c1c;
+  height: 20px;
+  margin: 20px 75px;
+}
+.first-section span {
+  background: #24963f;
+  padding: 2px 5px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+}
+.third-section {
+  display: flex;
+  justify-content: flex-end;
+}
+.third-section h4 {
+  font-size: 1rem;
+}
+.extra {
+  border-bottom: 1px solid #767676;
+}
+.card {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+  border: none;
+  outline: none;
+}
+.card-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card-footer {
+  background: white;
+  border: none;
+}
+.card:hover {
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0.1);
+  transition: 0.4s;
+}
